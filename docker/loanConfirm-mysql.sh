@@ -4,5 +4,5 @@ docker run -d \
 -e MYSQL_USER="loanConfirm" \
 -e MYSQL_PASSWORD="loanConfirm" \
 -e MYSQL_DATABASE="loanConfirm" \
--e 3306:3306 \
+-p 3307:3306 \
 mysql:latest
